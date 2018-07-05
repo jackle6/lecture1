@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+			/* Styling in particular envrionment */
+			@media (min-width: 500px) { /* Larger window*/
+				h1::before {
+					content: "Welcome to my large webpage";
+				}	
+			}
+			
+			@media (max-width: 499px) { /* Small window*/
+				h1::before {
+					content: "Welcome to small";
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<h1></h1>
+	</body>
+</html>
