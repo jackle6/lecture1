@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My attribute</title>
+		<style>
+			a::before {
+				/* Pseudo-element before apply to element before the link
+				   \21d2 is a UNICODE for a symbo*/
+				content: "\21d2  Click here: ";
+				font-weight: bold
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="#">One link</li>
+			<li><a href="#">Second link</li>
+			<li><a href="#">Third link</li>
+		</ul>
+	</body>
+</html>
