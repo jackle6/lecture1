@@ -5,14 +5,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adjsut for phones, use commonly -->
 		<style>
 			.container {
-				display: flex;
+				display: flex; /* Allow content to wrap around */
 				flex-wrap: wrap;
 			}
 
-			.container > div {
-				background-color: : springgreen;
+			.container > div { /* Immediate child */
+				background-color: springgreen;
 				font-size: 20px;
 				margin: 20px;
+				width: 200px;
 			}
 		</style>
 	</head>
